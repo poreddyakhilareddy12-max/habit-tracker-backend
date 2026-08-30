@@ -2,6 +2,6 @@ services:
   - type: web
     name: habit-tracker-backend
     env: node
-    buildCommand: npm install
+    buildCommand: npm ci
     startCommand: node server.js
     autoDeploy: true
